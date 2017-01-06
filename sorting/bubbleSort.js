@@ -7,8 +7,8 @@ module.exports = {
   /**
    * Regular implementation of Bubble Sort
    *
-   * @param  {array} unsorted
-   * @return {array} sorted
+   * @param  {array} arr - unsorted array
+   * @return {array} sorted array
    */
   bubbleSort: (arr) => {
     const sorted = arr;
@@ -44,8 +44,8 @@ module.exports = {
   /**
    * Optimized implementation of Bubble Sort
    *
-   * @param  {array} unsorted
-   * @return {array} sorted
+   * @param  {array} arr - unsorted array
+   * @return {array} sorted array
    */
   bubbleSortOpt: (arr) => {
     const sorted = arr;

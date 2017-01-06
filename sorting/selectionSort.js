@@ -7,10 +7,10 @@ module.exports = {
   /**
    * selectionSort implementation
    *
-   * @param  {array} unsorted
-   * @return {array} sorted
+   * @param  {array} arr - unsorted array
+   * @return {array} sorted array
    */
-  selectionSort: (arr, asc = true) => {
+  selectionSort: (arr) => {
     const sorted = arr;
     let posFromRight = 1;
     let largestNumber = sorted[0];
